@@ -1,0 +1,5 @@
+﻿  Helper.cpp
+  Window.cpp
+d:\uni\oaip\coors\var 4\labirint\labirint\BusinesLoginLabirint.h(615): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Labirint.vcxproj -> D:\Uni\OAIP\Coors\Var 4\Labirint\Debug\Labirint.exe
