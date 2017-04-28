@@ -1,4 +1,4 @@
-﻿  ErorrList.cpp
+﻿  Developer.cpp
   Window.cpp
 d:\uni\oaip\coors\var 4\labirint\labirint\BusinesLoginLabirint.h(308): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 d:\uni\oaip\coors\var 4\labirint\labirint\BusinesLoginLabirint.h(615): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data

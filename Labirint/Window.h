@@ -83,7 +83,7 @@ namespace Labirint {
 	private: System::Windows::Forms::RadioButton^  radioButton3;
 	private: System::Windows::Forms::GroupBox^  groupBox5;
 	private: System::Windows::Forms::ToolStripMenuItem^  erorrListToolStripMenuItem;
-	private: System::Windows::Forms::FolderBrowserDialog^  folderBrowserDialog1;
+
 	private: System::ComponentModel::IContainer^  components;
 
 	private:
@@ -123,7 +123,6 @@ namespace Labirint {
 			this->radioButton2 = (gcnew System::Windows::Forms::RadioButton());
 			this->radioButton3 = (gcnew System::Windows::Forms::RadioButton());
 			this->groupBox5 = (gcnew System::Windows::Forms::GroupBox());
-			this->folderBrowserDialog1 = (gcnew System::Windows::Forms::FolderBrowserDialog());
 			this->groupBox1->SuspendLayout();
 			this->groupBox2->SuspendLayout();
 			this->groupBox3->SuspendLayout();
@@ -281,20 +280,22 @@ namespace Labirint {
 			});
 			this->aboutToolStripMenuItem->Name = L"aboutToolStripMenuItem";
 			this->aboutToolStripMenuItem->Size = System::Drawing::Size(62, 24);
-			this->aboutToolStripMenuItem->Text = L"About";
+			this->aboutToolStripMenuItem->Text = L"&About";
 			// 
 			// helpToolStripMenuItem
 			// 
 			this->helpToolStripMenuItem->Name = L"helpToolStripMenuItem";
-			this->helpToolStripMenuItem->Size = System::Drawing::Size(153, 26);
-			this->helpToolStripMenuItem->Text = L"Help";
+			this->helpToolStripMenuItem->ShortcutKeys = System::Windows::Forms::Keys::F1;
+			this->helpToolStripMenuItem->Size = System::Drawing::Size(210, 26);
+			this->helpToolStripMenuItem->Text = L"&Help";
 			this->helpToolStripMenuItem->Click += gcnew System::EventHandler(this, &Window::helpToolStripMenuItem_Click);
 			// 
 			// developerToolStripMenuItem
 			// 
 			this->developerToolStripMenuItem->Name = L"developerToolStripMenuItem";
-			this->developerToolStripMenuItem->Size = System::Drawing::Size(153, 26);
-			this->developerToolStripMenuItem->Text = L"Developer";
+			this->developerToolStripMenuItem->ShortcutKeys = static_cast<System::Windows::Forms::Keys>((System::Windows::Forms::Keys::Control | System::Windows::Forms::Keys::F2));
+			this->developerToolStripMenuItem->Size = System::Drawing::Size(210, 26);
+			this->developerToolStripMenuItem->Text = L"&Developer";
 			this->developerToolStripMenuItem->Click += gcnew System::EventHandler(this, &Window::developerToolStripMenuItem_Click);
 			// 
 			// menuStrip1
@@ -313,8 +314,9 @@ namespace Labirint {
 			// erorrListToolStripMenuItem
 			// 
 			this->erorrListToolStripMenuItem->Name = L"erorrListToolStripMenuItem";
+			this->erorrListToolStripMenuItem->ShortcutKeys = System::Windows::Forms::Keys::F3;
 			this->erorrListToolStripMenuItem->Size = System::Drawing::Size(75, 24);
-			this->erorrListToolStripMenuItem->Text = L"ErorrList";
+			this->erorrListToolStripMenuItem->Text = L"&ErorrList";
 			this->erorrListToolStripMenuItem->Click += gcnew System::EventHandler(this, &Window::erorrListToolStripMenuItem_Click);
 			// 
 			// groupBox4
